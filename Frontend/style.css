@@ -1,0 +1,143 @@
+/* COLOR PALETTE 
+
+#FAF8F1
+#FAEAB1
+#E5BA73
+#C58940
+
+*/
+body {
+	background-color: #FAF8F1;
+}
+.navbarlistitem {
+	display: inline-block;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+#navbar {
+	display: inline-block;
+	list-style-type: none;
+    padding: 10px;
+}
+.activenavbarbutton{
+	display: block;
+    color: #C58940;
+    font-size: 20px;
+    text-decoration: none;
+}
+.activenavbarbutton:hover {
+	background-color: #E5BA73;
+}
+.navbarbutton{
+	display: block;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+.navbarbutton:hover {
+	background-color: #E5BA73;
+}
+#headertext {
+	font-size: 30px;
+}
+#headerdiv {
+	position: relative;
+	height: 10vh;
+}
+#username {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+.box {
+	border-radius: 10px;
+	border-color: #C58940;
+	border-style: solid;
+	background-color: #FAEAB1;
+}
+#sidebardiv {
+	position: relative;
+	width: 30vh;
+	height: 400px;
+	float: right;
+}
+#nextcontestdiv {
+	width: 30vh;
+	height: 20vh;
+}
+#userstatsdiv {
+	margin-top: 20px;	
+	width: 30vh;
+	height: 30vh;
+}
+#announcementdiv {
+	position: relative;
+	float: left;
+	width: 160vh;
+	height: 70vh;
+}
+#announcementtitle{
+	font-size: 30px;
+	font-family: arial;
+	margin-left: 5px;
+}
+.announcementcontent{
+	margin-left: 5px;
+}
+#aboutdiv {
+	position: relative;
+	float: left;
+	width: 190vh;
+	height: 70vh;
+}
+#abouttitle{
+	font-size: 30px;
+	font-family: arial;
+	margin-left: 5px;
+}
+.aboutcontent{
+	margin-left: 5px;
+}
+.sidebarcontent{
+	text-align: center;
+	display: block;
+}	
+#searchdiv {
+	height: 20vh;
+}
+#searchbutton{
+	border-radius: 5px;
+	border-color: #E5BA73;
+	background-color: #E5BA73;
+}
+#searchedusername{
+	font-size: 30px;
+	font-family: arial;
+	text-align: center;
+}
+.searcheduserstats{
+	font-size: 20px;
+	font-family: arial;
+	text-align: center;
+}
+#problemdiv {
+	position: relative;
+	float: left;
+	width: 160vh;
+	height: 70vh;
+}
+#problemtitle{
+	font-size: 30px;
+	font-family: arial;
+	text-align: center;
+}
+.problemcontent{
+	margin-left: 5px;
+}
+#problemmeta{
+	text-align: center;
+}
+#problemcontestdiv{
+	width: 30vh;
+	height: 20vh;
+}
